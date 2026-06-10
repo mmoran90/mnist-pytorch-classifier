@@ -1,7 +1,14 @@
 venv/
 __pycache__/
 *.pyc
-data/
+
+# Ignore raw dataset files, but keep the folder itself
+data/MNIST/raw/
+
+# Ignore any alternative saved_models folder if you had one
 saved_models/
-plots/
+
+# Keep plots (so no 'plots/' ignore)
+# plots/   <-- REMOVE this line
+
 .ipynb_checkpoints/
